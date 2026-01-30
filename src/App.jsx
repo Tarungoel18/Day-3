@@ -1,5 +1,11 @@
+import React from "react";
+import User from "./components/user/Index.jsx";
 function App() {
-  return <div>Day-3</div>;
+  return (
+    <React.Fragment>
+      <User />
+    </React.Fragment>
+  );
 }
 
 export default App;
