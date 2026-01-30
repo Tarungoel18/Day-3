@@ -1,0 +1,40 @@
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px; 
+    align-items: center;
+    width: 100%;
+    max-width: 400px; 
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+    width: 100%;
+}
+
+.form-element input {
+    width: 100%; 
+    padding: 8px; 
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    padding: 10px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
